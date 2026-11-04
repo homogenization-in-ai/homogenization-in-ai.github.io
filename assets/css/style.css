@@ -93,6 +93,25 @@ a:hover { color: var(--link-hover); }
 }
 .nav-links .nav-cta:hover { background: var(--accent); color: #FFFFFF; }
 
+/* When the links wrap below the brand (narrow screens), they fold away while
+   scrolling down and return on scroll up. The header's margin grows by exactly
+   what the links lose, so the page below never shifts. */
+.site-header.nav-wrapped .nav { row-gap: 0; }
+.site-header.nav-wrapped .nav-links {
+  height: var(--nav-links-h, auto);
+  margin-top: 12px;
+  overflow: hidden;
+  transition: height 240ms ease, margin-top 240ms ease, opacity 200ms ease, visibility 240ms;
+}
+.site-header.nav-wrapped { transition: margin-bottom 240ms ease; }
+.site-header.nav-wrapped.nav-collapsed { margin-bottom: calc(var(--nav-links-h, 0px) + 12px); }
+.site-header.nav-wrapped.nav-collapsed .nav-links {
+  height: 0; margin-top: 0; opacity: 0; visibility: hidden;
+}
+@media (prefers-reduced-motion: reduce) {
+  .site-header.nav-wrapped, .site-header.nav-wrapped .nav-links { transition: none; }
+}
+
 /* ---------- Hero ---------- */
 .hero { --blob-w: min(460px, 36vw); position: relative; padding-top: 88px; padding-bottom: 40px; }
 .hero-head { padding-right: calc(var(--blob-w) + 40px); min-height: calc(var(--blob-w) * 0.84 + 24px); }
