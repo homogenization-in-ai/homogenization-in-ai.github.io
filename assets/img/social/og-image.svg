@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title description">
+  <title id="title">Homogenization in AI — HPAI@AAAI2027</title>
+  <desc id="description">Social preview card for the Homogenization in AI bridge program at AAAI 2027: February 16–17, 2027 at the Palais des congrès, Montreal. Submission deadline November 22, 2026.</desc>
+  <defs>
+    <clipPath id="city-crop">
+      <path d="M760 0H1200V630H930Z"/>
+    </clipPath>
+    <linearGradient id="photo-shade" x1="0" x2="0" y1="0" y2="1">
+      <stop offset=".55" stop-color="#16181D" stop-opacity="0"/>
+      <stop offset="1" stop-color="#16181D" stop-opacity=".55"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="#F4F4F1"/>
+  <image href="../montreal.jpg" x="600" y="0" width="945" height="630" preserveAspectRatio="xMidYMid slice" clip-path="url(#city-crop)"/>
+  <path d="M760 0H1200V630H930Z" fill="url(#photo-shade)"/>
+  <path d="M760 0H788L958 630H930Z" fill="#3346D3"/>
+  <path d="M788 0H797L967 630H958Z" fill="#E0772B"/>
+
+  <g font-family="'Schibsted Grotesk', Arial, Helvetica, sans-serif">
+    <!-- brand mark, as in the site header -->
+    <g transform="translate(64 58)">
+      <rect x="2" y="7" width="13" height="13" rx="2.5" fill="#3346D3" transform="rotate(45 8.5 13.5)"/>
+      <rect x="22" y="3" width="9" height="21" rx="4.5" fill="#E0772B"/>
+      <circle cx="39" cy="13.5" r="4.5" fill="#8E9099"/>
+      <circle cx="51" cy="13.5" r="4.5" fill="#8E9099"/>
+    </g>
+    <text x="132" y="78" fill="#3346D3" font-size="19" font-weight="700" letter-spacing="2.6">BRIDGE PROGRAM AT AAAI 2027</text>
+
+    <text x="60" y="198" fill="#16181D" font-size="86" font-weight="800" letter-spacing="-2.6">Homogenization</text>
+    <text x="60" y="290" fill="#3346D3" font-size="86" font-weight="800" letter-spacing="-2.6">in AI</text>
+    <text x="63" y="350" fill="#2A2D34" font-size="32" font-weight="500">Social Impacts, Pluralism, and Agents</text>
+    <rect x="64" y="376" width="56" height="5" rx="2.5" fill="#1E8A7A"/>
+
+    <g transform="translate(64 428)">
+      <circle cx="11" cy="11" r="10.5" fill="#3346D3"/>
+      <path d="M11 5.5v11M5.5 11h11" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round"/>
+      <text x="34" y="10" fill="#5A5D66" font-size="13" font-weight="700" letter-spacing="1.8">WHEN</text>
+      <text x="34" y="40" fill="#16181D" font-size="25" font-weight="700">Feb 16–17, 2027</text>
+    </g>
+    <g transform="translate(350 428)">
+      <path d="M11.5 0C4.6 0 0 5.4 0 11.5c0 9.2 11.5 22.2 11.5 22.2S23 20.7 23 11.5C23 5.4 18.4 0 11.5 0Zm0 16.6a5.4 5.4 0 1 1 0-10.8 5.4 5.4 0 0 1 0 10.8Z" fill="#E0772B"/>
+      <text x="36" y="10" fill="#5A5D66" font-size="13" font-weight="700" letter-spacing="1.8">WHERE</text>
+      <text x="36" y="40" fill="#16181D" font-size="25" font-weight="700">Montreal, Canada</text>
+    </g>
+
+    <line x1="64" y1="510" x2="770" y2="510" stroke="#DCDDD6" stroke-width="2"/>
+    <text x="64" y="560" fill="#5A5D66" font-size="14" font-weight="700" letter-spacing="2">CALL FOR PAPERS · DEADLINE</text>
+    <text x="64" y="592" fill="#16181D" font-size="26" font-weight="700">Nov 22, 2026 <tspan fill="#5A5D66" font-size="19" font-weight="500">AoE</tspan></text>
+    <text x="824" y="592" fill="#3346D3" font-size="18" font-weight="600" text-anchor="end">homogenization-in-ai.github.io</text>
+
+    <text x="1168" y="600" fill="#FFFFFF" fill-opacity=".85" font-size="12" text-anchor="end">Photo: Marc-Olivier Jodoin / Unsplash</text>
+  </g>
+</svg>
