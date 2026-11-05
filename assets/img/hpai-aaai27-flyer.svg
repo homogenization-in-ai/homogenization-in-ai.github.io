@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-labelledby="title description">
+  <title id="title">Homogenization in AI — HPAI@AAAI2027</title>
+  <desc id="description">Flyer for the Homogenization in AI bridge program at AAAI 2027 in Montreal, February 16–17, 2027. Includes venue, submission tracks, deadlines, and a QR code linking to the event website.</desc>
+  <defs>
+    <clipPath id="city-crop">
+      <path d="M1090 0H1920V1080H1435Z"/>
+    </clipPath>
+    <linearGradient id="photo-shade" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#16181D" stop-opacity="0"/>
+      <stop offset="1" stop-color="#16181D" stop-opacity=".5"/>
+    </linearGradient>
+    <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#16181D" flood-opacity=".12"/>
+    </filter>
+  </defs>
+
+  <rect width="1920" height="1080" fill="#F4F4F1"/>
+  <image href="montreal.jpg" x="820" y="0" width="1100" height="1080" preserveAspectRatio="xMidYMid slice" clip-path="url(#city-crop)"/>
+  <path d="M1090 0H1134L1479 1080H1435Z" fill="#3346D3"/>
+  <path d="M1134 0H1148L1493 1080H1479Z" fill="#E0772B"/>
+  <path d="M1470 0H1920V1080H1470Z" fill="url(#photo-shade)" clip-path="url(#city-crop)"/>
+
+  <text x="90" y="133" fill="#3346D3" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" letter-spacing="3">BRIDGE PROGRAM AT AAAI 2027</text>
+
+  <text x="84" y="270" fill="#16181D" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="800" letter-spacing="-3">Homogenization</text>
+  <text x="84" y="374" fill="#3346D3" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="800" letter-spacing="-4">in AI</text>
+  <text x="88" y="448" fill="#2A2D34" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="500">Social Impacts, Pluralism, and Agents</text>
+  <rect x="89" y="480" width="72" height="6" rx="3" fill="#1E8A7A"/>
+
+  <g transform="translate(88 550)">
+    <circle cx="14" cy="14" r="13" fill="#3346D3"/>
+    <path d="M14 7v14M7 14h14" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="43" y="13" fill="#5A5D66" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="2">WHEN</text>
+    <text x="43" y="51" fill="#16181D" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700">February 16–17, 2027</text>
+    <text x="43" y="80" fill="#5A5D66" font-family="Arial, Helvetica, sans-serif" font-size="21">Exact date TBD</text>
+  </g>
+  <g transform="translate(535 550)">
+    <path d="M15 1C6 1 0 8 0 16c0 12 15 29 15 29s15-17 15-29C30 8 24 1 15 1Zm0 21a7 7 0 1 1 0-14 7 7 0 0 1 0 14Z" fill="#E0772B"/>
+    <text x="47" y="13" fill="#5A5D66" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="2">WHERE</text>
+    <text x="47" y="51" fill="#16181D" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700">Palais des congrès</text>
+    <text x="47" y="80" fill="#5A5D66" font-family="Arial, Helvetica, sans-serif" font-size="21">Montreal, Canada</text>
+  </g>
+
+  <line x1="88" y1="660" x2="1010" y2="660" stroke="#DCDDD6" stroke-width="2"/>
+  <text x="88" y="708" fill="#3346D3" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="3">CALL FOR PAPERS</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="88" y="757" fill="#16181D" font-size="25" font-weight="700">Research</text>
+    <text x="88" y="787" fill="#5A5D66" font-size="19">6–9 pages</text>
+    <text x="350" y="757" fill="#16181D" font-size="25" font-weight="700">Proposals &amp; Perspectives</text>
+    <text x="350" y="787" fill="#5A5D66" font-size="19">Up to 3 pages</text>
+    <text x="700" y="757" fill="#16181D" font-size="25" font-weight="700">Fast Review</text>
+    <text x="700" y="787" fill="#5A5D66" font-size="19">No page limit</text>
+  </g>
+
+  <text x="88" y="870" fill="#5A5D66" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" letter-spacing="2">SUBMISSION DEADLINE · ALL TRACKS</text>
+  <text x="88" y="930" fill="#16181D" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700">November 22, 2026</text>
+  <text x="88" y="968" fill="#5A5D66" font-family="Arial, Helvetica, sans-serif" font-size="21">11:59 PM Anywhere on Earth (AoE)</text>
+
+  <g filter="url(#soft-shadow)">
+    <rect x="995" y="715" width="250" height="250" rx="22" fill="#FFFFFF"/>
+  </g>
+  <image href="hpai-aaai27-qr.png" x="1013" y="733" width="214" height="214" preserveAspectRatio="xMidYMid meet"/>
+  <text x="1120" y="1018" fill="#3346D3" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34">homogenization-in-ai.github.io</text>
+  <text x="1120" y="1057" fill="#3346D3" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34">/aaai27/</text>
+
+  <g fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif">
+    <text x="1848" y="1018" text-anchor="end" font-size="14" font-weight="600">Montreal at dusk</text>
+    <text x="1848" y="1044" text-anchor="end" font-size="15" opacity=".8">Photo: Marc-Olivier Jodoin / Unsplash</text>
+  </g>
+</svg>
