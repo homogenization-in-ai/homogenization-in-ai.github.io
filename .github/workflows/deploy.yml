@@ -28,7 +28,7 @@ jobs:
         run: |
           mkdir -p _site
           cp index.html _site/
-          cp -r assets _site/
+          cp -r aaai27 assets _site/
           touch _site/.nojekyll
 
       - name: Upload artifact

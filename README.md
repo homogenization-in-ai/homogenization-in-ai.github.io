@@ -1,8 +1,8 @@
 # homogenization-in-ai.github.io
 
-Website for **Homogenization in AI: Social Impacts, Pluralism, and Agents** (HAI@AAAI2027, Montreal), a bridge program at AAAI 2027.
+Website for **Homogenization in AI: Social Impacts, Pluralism, and Agents** (HPAI@AAAI2027, Montreal), a bridge program at AAAI 2027.
 
-A static site with no build step: `index.html`, `assets/css/style.css`, `assets/js/main.js`.
+A static site with no build step: the event page lives at `aaai27/index.html`, with shared styles and scripts in `assets/`. The root `index.html` redirects visitors to the current event page.
 
 ## Local preview
 
@@ -10,7 +10,7 @@ A static site with no build step: `index.html`, `assets/css/style.css`, `assets/
 python3 -m http.server 8000
 ```
 
-Then open http://localhost:8000.
+Then open http://localhost:8000. The root redirects to http://localhost:8000/aaai27/, which can also be opened directly.
 
 ## Deployment
 
