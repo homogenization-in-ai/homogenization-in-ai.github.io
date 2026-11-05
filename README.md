@@ -21,3 +21,7 @@ One-time setup: in the repository settings, go to **Settings → Pages → Build
 
 Hero photo by [Marc-Olivier Jodoin](https://unsplash.com/photos/landscape-photography-of-skyscrapers-BG9oZ15a4Xk) on Unsplash.
 Organizer photos come from each organizer's personal website.
+
+## Social previews
+
+Link previews (Open Graph and X/Twitter cards) use `assets/img/social/og-image.jpg` (1200×630, the size Facebook, LinkedIn, X, Slack, Discord, WhatsApp and iMessage expect). Its source is `assets/img/social/og-image.svg`; after editing it, re-render the JPEG at 1200×630 with Schibsted Grotesk loaded (for example by screenshotting the SVG in a headless browser). Image URLs in the meta tags are absolute, as the platforms require.
