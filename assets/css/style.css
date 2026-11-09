@@ -318,11 +318,11 @@ a:hover { color: var(--link-hover); }
   margin-top: 40px; padding: 24px 0;
   border-top: 1px solid var(--dark-rule); border-bottom: 1px solid var(--dark-rule);
 }
-.dual-submission-policy, .generative-ai-policy { margin-top: 24px; }
-.submission-format h3, .dual-submission-policy h3, .generative-ai-policy h3 { margin: 0; font-size: 21px; line-height: 1.25; }
-.submission-format p, .dual-submission-policy p, .generative-ai-policy p { margin: 8px 0 0; color: var(--dark-text); font-size: 15px; }
-.submission-format a, .dual-submission-policy a, .generative-ai-policy a { color: #C3CAFF; }
-.submission-format a:hover, .dual-submission-policy a:hover, .generative-ai-policy a:hover { color: #FFFFFF; }
+.anonymous-submissions, .dual-submission-policy, .generative-ai-policy { margin-top: 24px; }
+.submission-format h3, .anonymous-submissions h3, .dual-submission-policy h3, .generative-ai-policy h3 { margin: 0; font-size: 21px; line-height: 1.25; }
+.submission-format p, .anonymous-submissions p, .dual-submission-policy p, .generative-ai-policy p { margin: 8px 0 0; color: var(--dark-text); font-family: var(--sans); font-size: 15px; font-weight: 400; }
+.submission-format a, .anonymous-submissions a, .dual-submission-policy a, .generative-ai-policy a { color: #C3CAFF; }
+.submission-format a:hover, .anonymous-submissions a:hover, .dual-submission-policy a:hover, .generative-ai-policy a:hover { color: #FFFFFF; }
 
 .cfp-bottom { margin-top: 48px; display: flex; flex-wrap: wrap; gap: 40px 64px; align-items: start; }
 .dates { flex: 999 1 520px; min-width: 0; }
