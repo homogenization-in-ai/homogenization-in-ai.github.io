@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title description">
   <title id="title">Homogenization in AI — HPAI@AAAI2027</title>
-  <desc id="description">Social preview card for the Homogenization in AI bridge program at AAAI 2027: February 16–17, 2027 at the Palais des congrès, Montreal. Submission deadline November 22, 2026.</desc>
+  <desc id="description">Social preview card for the Homogenization in AI bridge program at AAAI 2027: February 16–17, 2027 at the Palais des congrès, Montreal. Submission deadline November 25, 2026.</desc>
   <defs>
     <clipPath id="city-crop">
       <path d="M760 0H1200V630H930Z"/>
@@ -46,7 +46,9 @@
 
     <line x1="64" y1="510" x2="770" y2="510" stroke="#DCDDD6" stroke-width="2"/>
     <text x="64" y="560" fill="#5A5D66" font-size="14" font-weight="700" letter-spacing="2">CALL FOR PAPERS · DEADLINE</text>
-    <text x="64" y="592" fill="#16181D" font-size="26" font-weight="700">Nov 22, 2026 <tspan fill="#5A5D66" font-size="19" font-weight="500">AoE</tspan></text>
+    <text x="64" y="592" fill="#16181D" font-size="26" font-weight="700">Nov 22, 2026</text>
+    <line x1="64" y1="584" x2="237" y2="584" stroke="#16181D" stroke-width="2"/>
+    <text x="250" y="592" fill="#16181D" font-size="26" font-weight="700">Nov 25, 2026<tspan fill="#5A5D66" font-size="19" font-weight="500"> AoE</tspan></text>
     <text x="824" y="592" fill="#3346D3" font-size="18" font-weight="600" text-anchor="end">homogenization-in-ai.github.io</text>
 
     <text x="1168" y="600" fill="#FFFFFF" fill-opacity=".85" font-size="12" text-anchor="end">Photo: Marc-Olivier Jodoin / Unsplash</text>

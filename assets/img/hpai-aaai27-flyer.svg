@@ -49,6 +49,8 @@
 
   <text x="88" y="870" fill="#5A5D66" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" letter-spacing="2">SUBMISSION DEADLINE · ALL TRACKS</text>
   <text x="88" y="930" fill="#16181D" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700">November 22, 2026</text>
+  <line x1="88" y1="918" x2="518" y2="918" stroke="#16181D" stroke-width="3"/>
+  <text x="540" y="930" fill="#16181D" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700">November 25, 2026</text>
   <text x="88" y="968" fill="#5A5D66" font-family="Arial, Helvetica, sans-serif" font-size="21">11:59 PM Anywhere on Earth (AoE)</text>
 
   <g filter="url(#soft-shadow)">
